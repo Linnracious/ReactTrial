@@ -1,3 +1,9 @@
 # ReactTrial
+----
 
-Here is some more text
+Welcome.
+
+Setup
+----
+
+npm installed
