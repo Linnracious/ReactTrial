@@ -1,9 +1,12 @@
 {
   "name": "ReactTrial",
   "version": "1.0.0",
-  "description": "Here is some more text",
+  "description": "First project in React",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "stop": "pkill --signal SIGINIT ReactTrial",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +25,10 @@
     "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^2.4.1"
+    "express": "^4.14.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1",
+    "webpack-dev-middleware": "^1.10.0"
   }
 }

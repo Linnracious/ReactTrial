@@ -1,9 +1,19 @@
 # ReactTrial
-----
+---
 
 Welcome.
 
 Setup
-----
+---
 
-npm installed
+'''
+npm install
+'''
+
+
+Compile
+---
+
+'''
+npm run compile
+'''
